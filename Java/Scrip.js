@@ -64,7 +64,18 @@
 //  edadperro = edad*7
 // console.log("Tu edad perruna es",edadperro)
 
-//convertidor de grados celcius a fareheit
-let temperatura = Number (prompt("convertidor de grados C a F, ingresa el valor de grados Celsius"))
-fahrenheit = (temperatura*1.8)+32
-console.log(temperatura, "grados celsius son", fahrenheit, "grados fahrenheit")
+// //convertidor de grados celcius a fareheit
+// let temperatura = Number (prompt("convertidor de grados C a F, ingresa el valor de grados Celsius"))
+// fahrenheit = (temperatura*1.8)+32
+// console.log(temperatura, "grados celsius son", fahrenheit, "grados fahrenheit")
+
+//de pesos a dolares 
+// let pesos = Number(prompt("ingrese el valor de pesos que desea convertir a dolares"))
+// let dolar = 0.00027
+// let nuevo =pesos*dolar
+
+// console.log(pesos,"pesos son iguales a", nuevo, "dolares")
+let dolar = Number(prompt("ingrese el valor de pesos que desea convertir a pesos"))
+let pesos = 3693
+let nuevo =pesos*dolar
+console.log(dolar,"pesos son iguales a", nuevo, "pesos")
