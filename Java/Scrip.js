@@ -97,6 +97,12 @@
 // console.log(minutos, "a segundos son", nuevo)
 
 //convertidor de segundos a minutos
-let segundos = Number(prompt("Ingrese los segundos para saber los minutos"))
-nuevo = segundos/60
-console.log(segundos, "segundos a minutos son", nuevo)
+// let segundos = Number(prompt("Ingrese los segundos para saber los minutos"))
+// nuevo = segundos/60
+// console.log(segundos, "segundos a minutos son", nuevo)
+
+//area de un triangulo 
+ let base = Number(prompt("ingrese la base del triangulo"))
+ let altura =Number(prompt("ingrese la altura del triangulo"))
+  let nueva = (base*altura)/2
+  console.log("El area del triangulo es", nueva, "cm al cuadrado")
