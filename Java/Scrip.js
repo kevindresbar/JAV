@@ -92,6 +92,11 @@
 //  console.log("el perimetro del cuadrado es igual a", nuevo)
 
 //convertidor de minutos a segundo 
-let minutos = Number(prompt("Ingrese los minutos para saber los segundo"))
-nuevo = minutos*60
-console.log(minutos, "a segundos son", nuevo)
+// let minutos = Number(prompt("Ingrese los minutos para saber los segundo"))
+// nuevo = minutos*60
+// console.log(minutos, "a segundos son", nuevo)
+
+//convertidor de segundos a minutos
+let segundos = Number(prompt("Ingrese los segundos para saber los minutos"))
+nuevo = segundos/60
+console.log(segundos, "segundos a minutos son", nuevo)
