@@ -60,6 +60,11 @@
 
 
 //Convertidor a edad canina
- edad = Number(prompt("convertidor de edad canina ingresa tu edad"))
- edadperro = edad*7
-console.log("Tu edad perruna es",edadperro)
+//  edad = Number(prompt("convertidor de edad canina ingresa tu edad"))
+//  edadperro = edad*7
+// console.log("Tu edad perruna es",edadperro)
+
+//convertidor de grados celcius a fareheit
+let temperatura = Number (prompt("convertidor de grados C a F, ingresa el valor de grados Celsius"))
+fahrenheit = (temperatura*1.8)+32
+console.log(temperatura, "grados celsius son", fahrenheit, "grados fahrenheit")
