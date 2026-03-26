@@ -1,0 +1,65 @@
+// nombre = prompt ("ingresa tu Nombre")
+// edad = Number (prompt("pon tu edad"));
+// correo = prompt ("imgresa tuy correo eletronico")
+
+
+// // alert(nombre)
+// alert("tu nombre es "+ nombre+ " tienes "+edad+" año tu correo es "+correo) //en alet solo funciona con +, la coma no lo identifica
+// console.log( "tu nombre es", nombre, "tienes",edad+" años tu correo es", correo); //el + y la , es lo mismo solo qeu el ams no te da espacio y la comsa si 
+ 
+
+//// EJERCCIO DOSSSSSSSSSSSSSSSSSSS-------------------
+// let nombre = prompt("cual es tu nombre")
+// let price = Number (prompt ("cuanto pagaste por eso?"))
+// let descuento= Number (prompt("cuanto descuento queires (en numero)"))
+// let fprice= (price*descuento/100)
+// console.log("tu nombre es", nombre, "tu nuevo precio es",fprice)
+//ejercico tresssssssssss
+
+// let nombre = prompt("cual es tu nombre")
+// let price = Number (prompt ("cuanto pagaste por eso?"))
+// if (price<0){
+//      price = Number (prompt("precio invalido digite bien sp"))
+// }
+
+// if (price < 100 ){
+//     nueva= (price*0.10)+price
+//     console.log("tu nuevo precio es", nueva)
+// }
+//     else if (price>100 && price<200 ){
+//         nueva=  price*.0,90
+//         console.log("tu nuevo precio es",  nueva)
+//     }
+//     else if(price>200){
+//         nueva= price*0,8
+//         console.log("tu nuevo precio es", nueva)
+//     }
+
+
+// //si es mayor 100 es 10 de incremeto  si es entre 100 y 200 descuento del 10  si es mayo a 200 descuento de 201
+// // ejercico 4 
+// let distancia = Number (prompt("cuantos kilometros hay de aca a hasta la pm"))
+
+// distancianueva = (distancia*1000)
+// console.log ("eso son",distancianueva, "metros")
+
+//ejercio 5 
+// let dis = Number(prompt("kilometros"))
+//  medida= prompt ("digita en que deseas convertir a METROS O CENTIMETROS")
+//     if (medida ==="metros") {
+//         nueva= dis*1000
+//         console.log("El valor en metros es", nueva)
+//     }
+//     else if (medida==="centimetros")
+//     {
+//        nueva=  dis*100000
+//        console.log("El valor en centimetos es", nueva)
+//     }
+
+
+
+
+//Convertidor a edad canina
+ edad = Number(prompt("convertidor de edad canina ingresa tu edad"))
+ edadperro = edad*7
+console.log("Tu edad perruna es",edadperro)
