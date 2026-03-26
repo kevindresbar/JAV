@@ -81,7 +81,13 @@
 // console.log(dolar,"pesos son iguales a", nuevo, "pesos")
 
 
-//area de un cuadrado
-let area = Number(prompt("ingrese el lado del cuadrado para saber el area total"))
-nuevo = area*area
-console.log("el area del cuadrado es igual a", nuevo)
+// //area de un cuadrado
+// let area = Number(prompt("ingrese el lado del cuadrado para saber el area total"))
+// nuevo = area*area
+// console.log("el area del cuadrado es igual a", nuevo)
+
+//perimetro de un cuadrado
+ let perimetro = Number(prompt("ingrese el lado del cuadrado para saber el perimetro total"))
+ nuevo = perimetro*4
+ console.log("el perimetro del cuadrado es igual a", nuevo)
+
