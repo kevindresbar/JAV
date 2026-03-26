@@ -87,7 +87,11 @@
 // console.log("el area del cuadrado es igual a", nuevo)
 
 //perimetro de un cuadrado
- let perimetro = Number(prompt("ingrese el lado del cuadrado para saber el perimetro total"))
- nuevo = perimetro*4
- console.log("el perimetro del cuadrado es igual a", nuevo)
+//  let perimetro = Number(prompt("ingrese el lado del cuadrado para saber el perimetro total"))
+//  nuevo = perimetro*4
+//  console.log("el perimetro del cuadrado es igual a", nuevo)
 
+//convertidor de minutos a segundo 
+let minutos = Number(prompt("Ingrese los minutos para saber los segundo"))
+nuevo = minutos*60
+console.log(minutos, "a segundos son", nuevo)
