@@ -75,7 +75,13 @@
 // let nuevo =pesos*dolar
 
 // console.log(pesos,"pesos son iguales a", nuevo, "dolares")
-let dolar = Number(prompt("ingrese el valor de pesos que desea convertir a pesos"))
-let pesos = 3693
-let nuevo =pesos*dolar
-console.log(dolar,"pesos son iguales a", nuevo, "pesos")
+// let dolar = Number(prompt("ingrese el valor de pesos que desea convertir a pesos"))
+// let pesos = 3693
+// let nuevo =pesos*dolar
+// console.log(dolar,"pesos son iguales a", nuevo, "pesos")
+
+
+//area de un cuadrado
+let area = Number(prompt("ingrese el lado del cuadrado para saber el area total"))
+nuevo = area*area
+console.log("el area del cuadrado es igual a", nuevo)
