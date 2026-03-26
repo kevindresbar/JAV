@@ -102,7 +102,14 @@
 // console.log(segundos, "segundos a minutos son", nuevo)
 
 //area de un triangulo 
- let base = Number(prompt("ingrese la base del triangulo"))
- let altura =Number(prompt("ingrese la altura del triangulo"))
-  let nueva = (base*altura)/2
-  console.log("El area del triangulo es", nueva, "cm al cuadrado")
+//  let base = Number(prompt("ingrese la base del triangulo"))
+//  let altura =Number(prompt("ingrese la altura del triangulo"))
+//   let nueva = (base*altura)/2
+//   console.log("El area del triangulo es", nueva, "cm al cuadrado")
+ 
+//convertidro de milimetros a centimetros
+
+let milimetros = Number (prompt("ingreso los milimetros para convertirlos a centimetros"))
+
+nueva = (milimetros/10)
+console.log ( milimetros, "milimetros son",nueva, "centimetros")
