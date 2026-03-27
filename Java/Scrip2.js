@@ -3,8 +3,8 @@ let personas = Number(prompt("cuantas personas estuviaron en la cena"))
 let comelona = prompt("que persona comio mas")
 let flac = prompt("quien comio menos")
 
-valor = Number((valorCena/ (personas +3) *3 ))
-sin = Number(valor / 2)
+valor = Number(valorCena/ (personas + 0.5))
+sin = Number(valor /2)
 tragon = Number(valor *2)
 
 
