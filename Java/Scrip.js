@@ -109,7 +109,14 @@
  
 //convertidro de milimetros a centimetros
 
-let milimetros = Number (prompt("ingreso los milimetros para convertirlos a centimetros"))
+// let milimetros = Number (prompt("ingreso los milimetros para convertirlos a centimetros"))
 
-nueva = (milimetros/10)
-console.log ( milimetros, "milimetros son",nueva, "centimetros")
+// nueva = (milimetros/10)
+// console.log ( milimetros, "milimetros son",nueva, "centimetros")
+
+//`` //alt 96
+
+let nombre = `juan`;
+let edad = 31;
+let correo = `juna@gmail.com`;
+console.log(`tu nombre es ${nombre}, tienes ${edad} y tu correo es ${correo}`) 
