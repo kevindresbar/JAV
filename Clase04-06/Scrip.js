@@ -90,7 +90,7 @@
      console.log("GANA PAPEL A PIERDA ")
 
  }else if (computer == 'piedra' && usuario == 'tijera' ){
-     console.log("GANA PIEDRA A TIJERA0 ")
+     console.log("GANA PIEDRA A TIJERA ")
 
  }
  else if (computer == 'papel' && usuario == 'papel' ){
@@ -103,7 +103,7 @@
      console.log("GANA PAPEL A PIERDA   ")
 
  }else if (computer == 'tijera' && usuario == 'papel' ){
-     console.log("EMPATE TIJERA A PAPEL")
+     console.log(" GANA TIJERA A PAPEL")
 
  }else if (computer == 'tijera' && usuario == 'tijera' ){
      console.log("EMPATE TIJERA A TIJERA, NADIE GANAA,")
