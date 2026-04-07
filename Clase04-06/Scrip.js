@@ -30,18 +30,50 @@
 //length cuenta caracteres
 
 //ejerccio 3 
-let price = Number (prompt ("cuanto pagaste por eso?"))
-if (price < 0){
-     price = Number (prompt("precio invalido digite bien sp"))
-}
+// let price = Number (prompt ("cuanto pagaste por eso?"))
+// if (price < 0){
+//      price = Number (prompt("precio invalido digite bien sp"))
+// }
 
-if (price <= 100 ){
-    nueva = (price*0.10)+price
-    console.log("tu nuevo precio es", nueva)
-} else if (price > 100 && price < 200 ){
-        nueva =  price*0.90
-        console.log("tu nuevo precio es", nueva)
-    } else if(price>200){
-        nueva = price*0.75
-        console.log("tu nuevo precio es", nueva)
-    }
+// if (price <= 100 ){
+//     nueva = (price*0.10)+price
+//     console.log("tu nuevo precio es", nueva)
+// } else if (price > 101 && price < 200 ){
+//         nueva =  price*0.90
+//         console.log("tu nuevo precio es", nueva)
+//     } else if(price >=200){
+//         nueva = price*0.75
+//         console.log("tu nuevo precio es", nueva)
+//     }
+//ejercciio 4
+let valor = Number (prompt("ingresa el primer valor"))
+let valor2 = Number (prompt("ingresa el segundo valor" ))
+let operacion = (prompt(
+    `Que oprcion deseas hacer?
+     1 = suma
+     2 = resta 
+     3 = multiplicacion
+     4 = division
+    `))
+    if (operacion<4 ){
+    operacion = (prompt(
+    `ingrese un valor correcto, Que oprcion deseas hacer?
+     1 = suma
+     2 = resta 
+     3 = multiplicacion
+     4 = division
+    `))}
+   
+    if(operacion == 1){
+    console.log("El resultado de la suma es",(valor+valor2) )
+
+}else if(operacion == 2 ){
+    console.log("El resultado de la resta es",(valor-valor2) )
+
+}else if(operacion == 3){
+    console.log("El resultado de la multiplicacion es",(valor*valor2) )
+
+}else if(operacion == 4 ){
+    console.log("El resultado de la division es",(valor/valor2) )
+
+}
