@@ -45,35 +45,70 @@
 //         nueva = price*0.75
 //         console.log("tu nuevo precio es", nueva)
 //     }
-//ejercciio 4
-let valor = Number (prompt("ingresa el primer valor"))
-let valor2 = Number (prompt("ingresa el segundo valor" ))
-let operacion = (prompt(
-    `Que oprcion deseas hacer?
-     1 = suma
-     2 = resta 
-     3 = multiplicacion
-     4 = division
-    `))
-    if (operacion<4 ){
-    operacion = (prompt(
-    `ingrese un valor correcto, Que oprcion deseas hacer?
-     1 = suma
-     2 = resta 
-     3 = multiplicacion
-     4 = division
-    `))}
+// //ejercciio 4
+// let valor = Number (prompt("ingresa el primer valor"))
+// let valor2 = Number (prompt("ingresa el segundo valor" ))
+// let operacion = (prompt(
+//     `Que oprcion deseas hacer?
+//      1 = suma
+//      2 = resta 
+//      3 = multiplicacion
+//      4 = division
+//     `))
+//     if (operacion<4 ){
+//     operacion = (prompt(
+//     `ingrese un valor correcto, Que oprcion deseas hacer?
+//      1 = suma
+//      2 = resta 
+//      3 = multiplicacion
+//      4 = division
+//     `))}
    
-    if(operacion == 1){
-    console.log("El resultado de la suma es",(valor+valor2) )
+//     if(operacion == 1){
+//     console.log("El resultado de la suma es",(valor+valor2) )
 
-}else if(operacion == 2 ){
-    console.log("El resultado de la resta es",(valor-valor2) )
+// }else if(operacion == 2 ){
+//     console.log("El resultado de la resta es",(valor-valor2) )
 
-}else if(operacion == 3){
-    console.log("El resultado de la multiplicacion es",(valor*valor2) )
+// }else if(operacion == 3){
+//     console.log("El resultado de la multiplicacion es",(valor*valor2) )
 
-}else if(operacion == 4 ){
-    console.log("El resultado de la division es",(valor/valor2) )
+// }else if(operacion == 4 ){
+//     console.log("El resultado de la division es",(valor/valor2) )
+
+// }
+
+let options =['piedra', 'papel', 'tijera'];
+let azar= Math.floor( Math.random()* 3);
+
+let computer = options [azar]
+let usuario = prompt ("Piedra, papel o tijera")
+if (computer == 'piedra' && usuario == 'piedra' ){
+    console.log("EMPATE PIEDRA A PIERDA, NADIE GANA ")
+}
+else if (computer == 'piedra' && usuario == 'papel' ){
+    console.log("GANA PAPEL A PIERDA ")
+
+}else if (computer == 'piedra' && usuario == 'tijera' ){
+    console.log("GANA PIEDRA A TIJERA0 ")
+
+}
+else if (computer == 'papel' && usuario == 'papel' ){
+    console.log("EMPATE PAPEL A PAPEL, NADIE GANAA, ")
+
+}else if (computer == 'papel' && usuario == 'tijera' ){
+    console.log("GANA TIJERA A PAPEL  ")
+
+}else if (computer == 'papel' && usuario == 'piedra' ){
+    console.log("GANA PAPEL A PIERDA   ")
+
+}else if (computer == 'tijera' && usuario == 'papel' ){
+    console.log("EMPATE TIJERA A PAPEL")
+
+}else if (computer == 'tijera' && usuario == 'tijera' ){
+    console.log("EMPATE TIJERA A TIJERA, NADIE GANAA,")
+
+}else if (computer == 'tijera' && usuario == 'piedra' ){
+    console.log("GANA PIEDRA A TIJERA   ")
 
 }
