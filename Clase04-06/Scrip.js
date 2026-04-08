@@ -113,16 +113,31 @@
 //      console.log("GANA PIEDRA A TIJERA   ")
 //  }
 
- let numeros =[1 ,2,3,4,5,6,7,8,9,4,5,6,2,4,7,8,9,99,12,55,88,99,77,88,21,12,45,78,89,56,23,32,65,98,87,54,21,22,33,11,44,555,6];
- let  pares = []
- let impares = []
- for(i = 0; i < numeros.length; i++){
- if (numeros[i] % 2 == 0) {
-    console.log("Es par", numeros [i]);
-    pares.push(numeros [i])
-} else {
-    console.log("Es impar", numeros [i] );
-    impares.push(numeros [i])
+//ejerccio 1 clase 7/04
+
+//  let numeros =[1 ,2,3,4,5,6,7,8,9,4,5,6,2,4,7,8,9,99,12,55,88,99,77,88,21,12,45,78,89,56,23,32,65,98,87,54,21,22,33,11,44,555,6];
+//  let  pares = []
+//  let impares = []
+//  for(i = 0; i < numeros.length; i++){
+//  if (numeros[i] % 2 == 0) {
+//     console.log("Es par", numeros [i]);
+//     pares.push(numeros [i])
+// } else {
+//     console.log("Es impar", numeros [i] );
+//     impares.push(numeros [i])
+// }
+// }
+// console.log("los impares son ", impares, " y los pares son", pares)
+
+//ejerccio 2
+
+let tabla = Number(prompt("de que numero desea la tabla"))
+let cant = Number (prompt("hasta que rango lo deseas"))
+if(tabla < 1 || cant < 1 ){ 
+  console.log("valor incorrecto ingrese un valor positivo")
+}else  if (tabla >10){
+     console.log("Ingrese un valor entre 1 a 10")
+      tabla = Number(prompt("Ingrese un valor entre 1 a 10"))
+} else{for (i=1;i<cant;i++)
+    console.log(`${tabla} * ${i} =${i*tabla}`)
 }
-}
-console.log("los impares son ", impares, " y los pares son", pares)
