@@ -131,13 +131,29 @@
 
 //ejerccio 2
 
-let tabla = Number(prompt("de que numero desea la tabla"))
-let cant = Number (prompt("hasta que rango lo deseas"))
-if(tabla < 1 || cant < 1 ){ 
-  console.log("valor incorrecto ingrese un valor positivo")
-}else  if (tabla >10){
-     console.log("Ingrese un valor entre 1 a 10")
-      tabla = Number(prompt("Ingrese un valor entre 1 a 10"))
-} else{for (i=1;i<cant;i++)
-    console.log(`${tabla} * ${i} =${i*tabla}`)
+// let tabla = Number(prompt("de que numero desea la tabla"))
+// let cant = Number (prompt("hasta que rango lo deseas"))
+// if(tabla < 1 || cant < 1 ){ 
+//   console.log("valor incorrecto ingrese un valor positivo")
+// }else  if (tabla >10){
+//      console.log("Ingrese un valor entre 1 a 10")
+//       tabla = Number(prompt("Ingrese un valor entre 1 a 10"))
+// } else{for (i=1;i<cant;i++)
+//     console.log(`${tabla} * ${i} =${i*tabla}`)
+// }
+
+//ejercicio3
+
+let numeros = [1,2,3,4,5,6,7,8,9,89,4,1,2,3,3,2,1,4,566,999,9,5]
+let suma = 0
+let max = 0
+
+for (i = 0; i<numeros.length; i++){
+    num = numeros [i]
+    suma = suma + num
+    if(max < num ){
+        max = num
+    }
 }
+console.log (suma, "el mayor es", max )
+ 
