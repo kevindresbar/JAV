@@ -78,37 +78,50 @@
 
 // }
 
- let options =['piedra', 'papel', 'tijera'];
- let azar= Math.floor( Math.random()* 3);
+//  let options =['piedra', 'papel', 'tijera'];
+//  let azar= Math.floor( Math.random()* 3);
 
- let computer = options [azar]
- let usuario = prompt ("Piedra, papel o tijera")
- if (computer == 'piedra' && usuario == 'piedra' ){
-     console.log("EMPATE PIEDRA A PIERDA, NADIE GANA ")
- }
- else if (computer == 'piedra' && usuario == 'papel' ){
-     console.log("GANA PAPEL A PIERDA ")
+//  let computer = options [azar]
+//  let usuario = prompt ("Piedra, papel o tijera")
 
- }else if (computer == 'piedra' && usuario == 'tijera' ){
-     console.log("GANA PIEDRA A TIJERA ")
+//  if (computer == 'piedra' && usuario == 'piedra' ){
+//      console.log( " el pc dio", computer, "EMPATE PIEDRA A PIERDA, NADIE GANA ")
+//  }
+//  else if (computer == 'piedra' && usuario == 'papel' ){
+//      console.log("GANA PAPEL A PIERDA ")
 
- }
- else if (computer == 'papel' && usuario == 'papel' ){
-     console.log("EMPATE PAPEL A PAPEL, NADIE GANAA, ")
+//  }else if (computer == 'piedra' && usuario == 'tijera' ){
+//      console.log("GANA PIEDRA A TIJERA ")
 
- }else if (computer == 'papel' && usuario == 'tijera' ){
-     console.log("GANA TIJERA A PAPEL  ")
+//  }
+//  else if (computer == 'papel' && usuario == 'papel' ){
+//      console.log("EMPATE PAPEL A PAPEL, NADIE GANAA, ")
 
- }else if (computer == 'papel' && usuario == 'piedra' ){
-     console.log("GANA PAPEL A PIERDA   ")
+//  }else if (computer == 'papel' && usuario == 'tijera' ){
+//      console.log("GANA TIJERA A PAPEL  ")
 
- }else if (computer == 'tijera' && usuario == 'papel' ){
-     console.log(" GANA TIJERA A PAPEL")
+//  }else if (computer == 'papel' && usuario == 'piedra' ){
+//      console.log("GANA PAPEL A PIERDA   ")
 
- }else if (computer == 'tijera' && usuario == 'tijera' ){
-     console.log("EMPATE TIJERA A TIJERA, NADIE GANAA,")
+//  }else if (computer == 'tijera' && usuario == 'papel' ){
+//      console.log(" GANA TIJERA A PAPEL")
 
- }else if (computer == 'tijera' && usuario == 'piedra' ){
-     console.log("GANA PIEDRA A TIJERA   ")
+//  }else if (computer == 'tijera' && usuario == 'tijera' ){
+//      console.log("EMPATE TIJERA A TIJERA, NADIE GANAA,")
 
+//  }else if (computer == 'tijera' && usuario == 'piedra' ){
+//      console.log("GANA PIEDRA A TIJERA   ")
+//  }
+
+ let numeros =[1 ,2,3,4,5,6,7,8,9,4,5,6,2,4,7,8,9,99,12,55,88,99,77,88,21,12,45,78,89,56,23,32,65,98,87,54,21,22,33,11,44,555,6];
+ let  pares = []
+ let impares = []
+ for(i = 0; i < numeros.length; i++){
+ if (numeros[i] % 2 == 0) {
+    console.log("Es par", numeros [i]);
+    pares.push(numeros [i])
+} else {
+    console.log("Es impar", numeros [i] );
+    impares.push(numeros [i])
+}
  }
