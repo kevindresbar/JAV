@@ -124,4 +124,5 @@
     console.log("Es impar", numeros [i] );
     impares.push(numeros [i])
 }
- }
+}
+console.log("los impares son ", impares, " y los pares son", pares)
