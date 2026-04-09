@@ -65,16 +65,16 @@ for (let i = 0; i < estudiantes.length; i++) {
     }
     let prom = suma / 4
      if (prom > 3.5) {
-            console.log(name, "paso con", prom)
+            console.log(name, "paso con", parseFloat(prom.toFixed(1)))
         } else if (prom > 3.0 && prom < 3.5) {
-            console.log(name, "le toca nivelar su nota es", prom)
+            console.log(name, "le toca nivelar su nota es", parseFloat(prom.toFixed(1)))
         }
         else if (prom < 2.9) {
-            console.log(name, "perdio  su nota es", prom)
+            console.log(name, "perdio  su nota es", parseFloat(prom.toFixed(1)))
 
         } 
         else {
-            console.log(prom)
+            console.log(parseFloat(prom.toFixed(1)))
         }
 
 }
