@@ -25,26 +25,56 @@
 // console.log("el valor mayor es", max)
 // console.log("el valor menor es", min) 
 // console.log("queda", reve)
- //ejercicio3
- const estudiantes = [
-  { nombre: "Juan", apellido: " Pérez", notaFinal: 4.5 },
-  { nombre: "María", apellido: " Gómez", notaFinal: 2.8 },
-  { nombre: "Carlos", apellido: " Rodríguez", notaFinal: 3.2 },
-  { nombre: "Ana", apellido: " Martínez", notaFinal: 4.9 },
-  { nombre: "Luis", apellido: " Fernández", notaFinal: 5.5 }
+//ejercicio3
+//  const estudiantes = [
+//   { nombre: "Juan", apellido: " Pérez", notaFinal: 4.5 },
+//   { nombre: "María", apellido: " Gómez", notaFinal: 2.8 },
+//   { nombre: "Carlos", apellido: " Rodríguez", notaFinal: 3.2 },
+//   { nombre: "Ana", apellido: " Martínez", notaFinal: 4.9 },
+//   { nombre: "Luis", apellido: " Fernández", notaFinal: 5.5 }
+// ];
+// for (let i =0;i<estudiantes.length;i++){
+//     let name  = estudiantes[i].nombre +  estudiantes[i].apellido
+//     let nota =estudiantes[i].notaFinal
+
+// if( nota > 3.5){
+//     console.log(name, "paso con", nota)
+// } else if ( nota > 3.0 && nota < 3.5){
+// console.log(name, "le toca nivelar su nota es", nota)
+// }
+// else if (nota < 2.9){
+//     console.log(name, "perdio  su nota es", nota)
+
+// }
+
+// }
+// ejercciio4 
+const estudiantes = [
+    { nombre: "Juan", apellido: " Pérez", notaFinal: [2.1, 5.0, 4.2, 3.0] },
+    { nombre: "María", apellido: " Gómez", notaFinal: [2.0, 3.7, 4.1, 4.3] },
+    { nombre: "Carlos", apellido: " Rodríguez", notaFinal: [3.0, 4.0, 2.0, 4.0] },
+    { nombre: "Ana", apellido: " Martínez", notaFinal: [0.5, 1.0, 2.6, 5.0,] },
+    { nombre: "Luis", apellido: " Fernández", notaFinal: [5.0, 3.0, 3.5, 4.3] }
 ];
-for (let i =0;i<estudiantes.length;i++){
-    let name  = estudiantes[i].nombre +  estudiantes[i].apellido
-    let nota =estudiantes[i].notaFinal
+for (let i = 0; i < estudiantes.length; i++) {
+    let name = estudiantes[i].nombre + estudiantes[i].apellido
+    let suma = 0
+    for (let j = 0; j < estudiantes[i].notaFinal.length; j++) {
+        let nota = estudiantes[i].notaFinal[j]
+        suma = suma + nota
+    }
+    let prom = suma / 4
+     if (prom > 3.5) {
+            console.log(name, "paso con", prom)
+        } else if (prom > 3.0 && prom < 3.5) {
+            console.log(name, "le toca nivelar su nota es", prom)
+        }
+        else if (prom < 2.9) {
+            console.log(name, "perdio  su nota es", prom)
 
-if( nota > 3.5){
-    console.log(name, "paso con", nota)
-} else if ( nota > 3.0 && nota < 3.5){
-console.log(name, "le toca nivelar su nota es", nota)
-}
-else if (nota < 2.9){
-    console.log(name, "perdio  su nota es", nota)
-
-}
+        } 
+        else {
+            console.log(prom)
+        }
 
 }
