@@ -70,10 +70,10 @@
 //         alert("numero invalido")
 // }
 //ejercicioaño
-let ano = (prompt("Ingrese un año"));
+let ano = (prompt("ingrese un año"));
 
-if ((ano % 4 == 0 && ano % 100 !== 0) || (ano % 400 == 0)) {
-    alert("Es bisiesto");
+if  (ano % 400 == 0){
+    alert("es bisiesto")
 } else {
-    alert("No es bisiesto");
+    alert("Nn es bisiesto")
 }
