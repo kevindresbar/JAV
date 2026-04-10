@@ -27,45 +27,53 @@
 //     }       
             
 //ejercicio2
-let mes = prompt("ingrese el numero del mes que desea")
-switch (mes) {
-    case "1":
-        alert("enero es frio")
-        break;
-    case "2":
-        alert("febrero es primavera")
-        break;
-    case 3:
-        alert("marzo es primavera")
-        break;
-    case 4:
-        alert("abril es primavera")
-        break;
-    case 5:
-        alert("mayo es verano")
-        break;
-    case 6:
-        alert("junio es verano")
-        break;
-    case 7:
-        alert("julio es verano")
-        break;
-    case 8:
-        alert("agosto es otoño")
-        break;
-    case 9:
-        alert("septiembre es otoño")
-        break;
-    case 10:
-        alert("octubre es otoño")
-        break;
-    case 11:
-        alert("noviembre es invierno")
-        break;
-    case 12:
-        alert("diciembre es invierno")
-        break;
+// let mes = prompt("ingrese el numero del mes que desea")
+// switch (mes) {
+//     case "1":
+//         alert("enero es frio")
+//         break;
+//     case "2":
+//         alert("febrero es primavera")
+//         break;
+//     case "3":
+//         alert("marzo es primavera")
+//         break;
+//     case "4":
+//         alert("abril es primavera")
+//         break;
+//     case "5":
+//         alert("mayo es verano")
+//         break;
+//     case "6":
+//         alert("junio es verano")
+//         break;
+//     case "7":
+//         alert("julio es verano")
+//         break;
+//     case "8":
+//         alert("agosto es otoño")
+//         break;
+//     case "9":
+//         alert("septiembre es otoño")
+//         break;
+//     case "10":
+//         alert("octubre es otoño")
+//         break;
+//     case "11":
+//         alert("noviembre es invierno")
+//         break;
+//     case "12":
+//         alert("diciembre es invierno")
+//         break;
 
-    default:
-        alert("numero invalido")
+//     default:
+//         alert("numero invalido")
+// }
+//ejercicioaño
+let ano = (prompt("Ingrese un año"));
+
+if ((ano % 4 == 0 && ano % 100 !== 0) || (ano % 400 == 0)) {
+    alert("Es bisiesto");
+} else {
+    alert("No es bisiesto");
 }
