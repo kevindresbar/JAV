@@ -72,7 +72,7 @@
 //ejercicioaño
 let ano = (prompt("ingrese un año"));
 
-if  (ano % 400 == 0){
+if ((ano % 4 == 0 && ano % 100 !== 0) || (ano % 400 == 0)) {
     alert("es bisiesto")
 } else {
     alert("Nn es bisiesto")
